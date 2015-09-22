@@ -58,8 +58,8 @@ public class SocksVpnService extends VpnService {
                     .setConfigureIntent(pIntent)
                     .setSession("fqrouter2")
                     .addAddress("10.25.1.1", 24)
-                    .addRoute("1.0.0.0", 8)
-                    .addRoute("2.0.0.0", 7)
+                    .addAddress("1.0.0.0", 8)
+                    .addAddress("2.0.0.0", 7)
                     .addRoute("4.0.0.0", 6)
                     .addRoute("8.0.0.0", 7)
                     // 10.0.0.0 - 10.255.255.255

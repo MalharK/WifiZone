@@ -33,17 +33,32 @@ import java.lang.reflect.Method;
 
 
 public class MainActivity extends Activity implements
+
+        //change the messages on the screen
+        LaunchingIntent.Handler,
         LaunchedIntent.Handler,
+
+        //checking for the app updates
+        //not required at all
         UpdateFoundIntent.Handler,
-        ExitedIntent.Handler,
         DownloadingIntent.Handler,
         DownloadedIntent.Handler,
         DownloadFailedIntent.Handler,
+
+        //logging the error on the screen
         HandleFatalErrorIntent.Handler,
+
+
+        //important
         DnsPollutedIntent.Handler,
         HandleAlertIntent.Handler,
-        ExitingIntent.Handler,
-        LaunchingIntent.Handler, SocksVpnConnectedIntent.Handler {
+        SocksVpnConnectedIntent.Handler,
+
+
+        //app exiting
+        //clearing code
+        ExitedIntent.Handler,
+        ExitingIntent.Handler{
 
     public final static int SHOW_AS_ACTION_IF_ROOM = 1;
     private final static int ITEM_ID_EXIT = 1;
@@ -354,6 +369,7 @@ public class MainActivity extends Activity implements
         return getResources().getString(id);
     }
 
+
     @Override
     public void onLaunched(boolean isVpnMode) {
         ActivityCompat.invalidateOptionsMenu(this);
@@ -379,7 +395,7 @@ public class MainActivity extends Activity implements
         findViewById(R.id.hintTextView).setVisibility(View.VISIBLE);
         findViewById(R.id.fullPowerButton).setVisibility(View.VISIBLE);
         loadWebView();
-        checkUpdate();
+        //checkUpdate();
     }
 
     private void checkUpdate() {
@@ -492,7 +508,7 @@ public class MainActivity extends Activity implements
         TextView statusTextView = (TextView) findViewById(R.id.statusTextView);
         statusTextView.setTextColor(Color.RED);
         statusTextView.setText(message);
-        checkUpdate();
+        //checkUpdate();
     }
 
     @Override
