@@ -1,35 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <FrameLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent" xmlns:android="http://schemas.android.com/apk/res/android"
-        android:clickable="false" android:id="@+id/frameLayout" android:focusableInTouchMode="false">
+    android:id="@+id/frameLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clickable="false"
+    android:focusableInTouchMode="false">
+
     <WebView
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
-            android:id="@+id/webView" android:layout_gravity="center" android:visibility="gone"/>
+        android:id="@+id/webView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:visibility="gone"/>
+
     <ProgressBar
-            android:layout_width="100dp"
-            android:layout_height="wrap_content"
-            android:id="@+id/progressBar" android:layout_gravity="center" android:progress="0"
-            style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Horizontal"
-            />
+        android:id="@+id/progressBar"
+        style="@android:style/Widget.DeviceDefault.Light.ProgressBar.Horizontal"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:progress="0"
+        />
+
     <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/statusTextView" android:layout_gravity="center" android:layout_marginTop="-50dp"
-            android:layout_marginLeft="10dp"
-            android:layout_marginRight="10dp" android:gravity="center" android:textSize="18dp"/>
+        android:id="@+id/statusTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="-50dp"
+        android:gravity="center"
+        android:textSize="18dp"/>
+
     <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/hint_swipe_left"
-            android:id="@+id/hintTextView" android:layout_gravity="center"
-            android:visibility="gone" android:textIsSelectable="false" android:layout_marginTop="70dp"/>
+        android:id="@+id/hintTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:text="@string/hint_swipe_left"
+        android:textIsSelectable="false"
+        android:visibility="gone"/>
+
     <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/button_full_power"
-            android:id="@+id/fullPowerButton" android:layout_gravity="center" android:layout_marginTop="40dp"
-            android:visibility="gone"/>
+        android:id="@+id/fullPowerButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:text="@string/button_full_power"
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/stop_wifi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:text="stop_hotspot"/>
+
+    <Button
+        android:id="@+id/start_wifi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:text="start_hotspot"/>
 </FrameLayout>

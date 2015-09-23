@@ -6,6 +6,8 @@ import android.net.LocalServerSocket;
 import android.net.LocalSocket;
 import android.net.VpnService;
 import android.os.ParcelFileDescriptor;
+import android.util.Log;
+
 import fq.router2.feedback.HandleFatalErrorIntent;
 import fq.router2.life_cycle.ExitService;
 import fq.router2.utils.LogUtils;
@@ -48,6 +50,7 @@ public class SocksVpnService extends VpnService {
     }
 
     private void startVpn() {
+        Log.d("Starting VPN","Entering startVpn function");
         try {
             if (tunPFD != null) {
                 throw new RuntimeException("another VPN is still running");

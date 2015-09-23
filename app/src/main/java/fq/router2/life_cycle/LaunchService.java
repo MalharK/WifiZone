@@ -174,7 +174,7 @@ public class LaunchService extends IntentService {
             LogUtils.i("apn name: " + apnName);
             if (apnName != null && WAP_APN_LIST.contains(apnName.trim().toLowerCase())) {
                 sendBroadcast(new HandleAlertIntent(HandleAlertIntent.ALERT_TYPE_3G_APN));
-                Thread.sleep(30000000);
+                Thread.sleep(30000);
             }
             for (int i = 0; i < 30; i++) {
                 if (ping(this, isVpnMode)) {

@@ -7,6 +7,7 @@
   </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_LOG_LEVEL" value="INFO" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="46ce9f1e-8e7b-434a-9dea-29f5ada8ee67" name="Default" comment="" />
@@ -29,148 +30,113 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/fq/router2/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="33.88889">
-              <caret line="497" column="47" selection-start-line="497" selection-start-column="29" selection-end-line="497" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.56962025">
+              <caret line="414" column="22" selection-start-line="414" selection-start-column="22" selection-end-line="414" selection-end-column="22" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#6319#6345#0" expanded="true" />
-                <element signature="e#6630#6658#0" expanded="true" />
-                <element signature="e#7127#7149#0" expanded="true" />
-                <element signature="e#7214#7237#0" expanded="true" />
-                <element signature="e#7314#7349#0" expanded="true" />
-                <element signature="e#7465#7495#0" expanded="true" />
-                <element signature="e#7569#7595#0" expanded="true" />
-                <element signature="e#7652#7671#0" expanded="true" />
-                <element signature="e#7716#7734#0" expanded="true" />
-                <element signature="e#9264#9283#0" expanded="true" />
-                <element signature="e#9654#9679#0" expanded="true" />
-                <element signature="e#9790#9815#0" expanded="true" />
-                <element signature="e#10260#10282#0" expanded="true" />
-                <element signature="e#10575#10597#0" expanded="true" />
-                <element signature="e#10681#10703#0" expanded="true" />
-                <element signature="e#10784#10809#0" expanded="true" />
-                <element signature="e#11300#11325#0" expanded="true" />
-                <element signature="e#12123#12184#0" expanded="true" />
-                <element signature="e#12455#12507#0" expanded="true" />
-                <element signature="e#12741#12795#0" expanded="true" />
-                <element signature="e#14131#14153#0" expanded="true" />
-                <element signature="e#14283#14306#0" expanded="true" />
-                <element signature="e#14567#14605#0" expanded="true" />
-                <element signature="e#14976#14997#0" expanded="true" />
-                <element signature="e#15042#15063#0" expanded="true" />
-                <element signature="e#16138#16170#0" expanded="true" />
-                <element signature="e#16200#16234#0" expanded="true" />
-                <element signature="e#16271#16301#0" expanded="true" />
-                <element signature="e#16490#16517#0" expanded="true" />
-                <element signature="e#16777#16806#0" expanded="true" />
-                <element signature="e#17164#17195#0" expanded="true" />
-                <element signature="e#17272#17305#0" expanded="true" />
-                <element signature="e#17783#17809#0" expanded="true" />
-                <element signature="e#18266#18293#0" expanded="true" />
-                <element signature="e#18475#18501#0" expanded="true" />
-                <element signature="e#18888#18916#0" expanded="true" />
-                <element signature="e#19083#19111#0" expanded="true" />
-                <element signature="e#20119#20152#0" expanded="true" />
-                <element signature="e#20182#20217#0" expanded="true" />
-                <element signature="e#20254#20285#0" expanded="true" />
-                <element signature="e#20792#20834#0" expanded="true" />
-                <element signature="e#21024#21065#0" expanded="true" />
-                <element signature="e#21244#21275#0" expanded="true" />
-                <element signature="e#21902#21925#0" expanded="true" />
-                <element signature="e#22451#22474#0" expanded="true" />
+                <element signature="e#3886#4302#0" expanded="true" />
+                <element signature="e#4301#4302#0" expanded="true" />
+                <element signature="e#4412#4560#0" expanded="true" />
+                <element signature="e#4559#4560#0" expanded="true" />
+                <element signature="e#4667#4814#0" expanded="true" />
+                <element signature="e#4813#4814#0" expanded="true" />
+                <element signature="e#5172#5173#0" expanded="true" />
+                <element signature="e#5203#5204#0" expanded="true" />
+                <element signature="e#7171#7197#0" expanded="true" />
+                <element signature="e#7482#7510#0" expanded="true" />
+                <element signature="e#7979#8001#0" expanded="true" />
+                <element signature="e#8066#8089#0" expanded="true" />
+                <element signature="e#8166#8201#0" expanded="true" />
+                <element signature="e#8317#8347#0" expanded="true" />
+                <element signature="e#8421#8447#0" expanded="true" />
+                <element signature="e#8504#8523#0" expanded="true" />
+                <element signature="e#8568#8586#0" expanded="true" />
+                <element signature="e#10116#10135#0" expanded="true" />
+                <element signature="e#10506#10531#0" expanded="true" />
+                <element signature="e#10642#10667#0" expanded="true" />
+                <element signature="e#11112#11134#0" expanded="true" />
+                <element signature="e#11427#11449#0" expanded="true" />
+                <element signature="e#11533#11555#0" expanded="true" />
+                <element signature="e#11636#11661#0" expanded="true" />
+                <element signature="e#12152#12177#0" expanded="true" />
+                <element signature="e#12975#13036#0" expanded="true" />
+                <element signature="e#13307#13359#0" expanded="true" />
+                <element signature="e#13593#13647#0" expanded="true" />
+                <element signature="e#14983#15005#0" expanded="true" />
+                <element signature="e#15135#15158#0" expanded="true" />
+                <element signature="e#15198#15199#0" expanded="true" />
+                <element signature="e#15249#15250#0" expanded="true" />
+                <element signature="e#15419#15457#0" expanded="true" />
+                <element signature="e#15828#15849#0" expanded="true" />
+                <element signature="e#15894#15915#0" expanded="true" />
+                <element signature="e#16426#16701#0" expanded="true" />
+                <element signature="e#16700#16701#0" expanded="true" />
+                <element signature="e#16703#16965#0" expanded="true" />
+                <element signature="e#16964#16965#0" expanded="true" />
+                <element signature="e#18698#18730#0" expanded="true" />
+                <element signature="e#18760#18794#0" expanded="true" />
+                <element signature="e#18831#18861#0" expanded="true" />
+                <element signature="e#19050#19077#0" expanded="true" />
+                <element signature="e#19337#19366#0" expanded="true" />
+                <element signature="e#19725#19756#0" expanded="true" />
+                <element signature="e#19833#19866#0" expanded="true" />
+                <element signature="e#20345#20371#0" expanded="true" />
+                <element signature="e#20828#20855#0" expanded="true" />
+                <element signature="e#21037#21063#0" expanded="true" />
+                <element signature="e#21450#21478#0" expanded="true" />
+                <element signature="e#21645#21673#0" expanded="true" />
+                <element signature="e#22681#22714#0" expanded="true" />
+                <element signature="e#22744#22779#0" expanded="true" />
+                <element signature="e#22816#22847#0" expanded="true" />
+                <element signature="e#23354#23396#0" expanded="true" />
+                <element signature="e#23586#23627#0" expanded="true" />
+                <element signature="e#23806#23837#0" expanded="true" />
+                <element signature="e#24464#24487#0" expanded="true" />
+                <element signature="e#25013#25036#0" expanded="true" />
+                <element signature="e#26164#26192#0" expanded="true" />
+                <element signature="e#26283#26454#0" expanded="true" />
+                <element signature="e#26453#26454#0" expanded="true" />
+                <element signature="e#26973#27004#0" expanded="true" />
+                <element signature="e#27038#27071#0" expanded="true" />
+                <element signature="e#27112#27142#0" expanded="true" />
+                <element signature="e#27485#27525#0" expanded="true" />
+                <element signature="e#28075#28110#0" expanded="true" />
+                <element signature="e#28460#28491#0" expanded="true" />
+                <element signature="e#28525#28558#0" expanded="true" />
+                <element signature="e#28599#28629#0" expanded="true" />
+                <element signature="e#28926#28954#0" expanded="true" />
+                <element signature="e#29622#30199#0" expanded="true" />
+                <element signature="e#30120#30155#0" expanded="true" />
+                <element signature="e#30198#30199#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.4">
-              <caret line="233" column="18" selection-start-line="233" selection-start-column="18" selection-end-line="233" selection-end-column="18" />
-              <folding />
-            </state>
+      <file leaf-file-name="main.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/main.xml">
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LaunchService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/fq/router2/life_cycle/LaunchService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.8888888">
-              <caret line="157" column="13" selection-start-line="157" selection-start-column="13" selection-end-line="157" selection-end-column="13" />
+            <state vertical-scroll-proportion="-7.37931">
+              <caret line="65" column="43" selection-start-line="65" selection-start-column="43" selection-end-line="65" selection-end-column="43" />
               <folding>
-                <element signature="e#1477#1503#0" expanded="true" />
-                <element signature="e#1647#1685#0" expanded="true" />
-                <element signature="e#2198#2225#0" expanded="true" />
-                <element signature="e#2455#2492#0" expanded="true" />
-                <element signature="e#2888#2932#0" expanded="true" />
-                <element signature="e#3039#3081#0" expanded="true" />
-                <element signature="e#3171#3214#0" expanded="true" />
-                <element signature="e#3427#3463#0" expanded="true" />
-                <element signature="e#5135#5167#0" expanded="true" />
+                <element signature="e#1430#1455#0" expanded="true" />
+                <element signature="e#1778#1805#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ManagerProcess.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/fq/router2/life_cycle/ManagerProcess.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7151899">
-              <caret line="57" column="55" selection-start-line="57" selection-start-column="55" selection-end-line="57" selection-end-column="55" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ShellUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/fq/router2/utils/ShellUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.111111">
-              <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1197#1205#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Runtime.java" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/java/lang/Runtime.java">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="235" column="9" selection-start-line="235" selection-start-column="9" selection-end-line="235" selection-end-column="9" />
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SocksVpnService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/fq/router2/SocksVpnService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.7777777">
-              <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
-              <folding>
-                <element signature="e#702#710#0" expanded="true" />
-                <element signature="e#763#772#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VpnService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/net/VpnService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.111111">
-              <caret line="147" column="75" selection-start-line="147" selection-start-column="75" selection-end-line="147" selection-end-column="75" />
-              <folding>
-                <element signature="e#17130#17131#0" expanded="true" />
-                <element signature="e#17205#17206#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -179,9 +145,46 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/fq/router2/life_cycle/LaunchedIntent.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="false" />
+                <element signature="e#528#750#0" expanded="true" />
+                <element signature="e#749#750#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LaunchService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/fq/router2/life_cycle/LaunchService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="141" column="14" selection-start-line="141" selection-start-column="14" selection-end-line="141" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Deployer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/fq/router2/life_cycle/Deployer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="240" column="9" selection-start-line="240" selection-start-column="9" selection-end-line="240" selection-end-column="9" />
+              <folding>
+                <element signature="e#3573#3574#0" expanded="true" />
+                <element signature="e#3632#3633#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SocksVpnService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/fq/router2/SocksVpnService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+              <folding>
+                <element signature="e#1202#1203#0" expanded="true" />
+                <element signature="e#1227#1228#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -1222,7 +1225,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4327021337000" />
+        <entry key="$PROJECT_DIR$" value="4327632741000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -1390,6 +1393,7 @@
                             <option value="$APPLICATION_HOME_DIR$/gradle/m2repository/commons-codec/commons-codec/1.4/commons-codec-1.4.jar" />
                             <option value="$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/appcompat-v7/23.0.1/appcompat-v7-23.0.1.aar" />
                             <option value="$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/support-v4/23.0.1/support-v4-23.0.1.aar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mcxiaoke.volley/library/1.0.17/f417d7f776d1ee5858fc04d9362aa45e9bedd26b/library-1.0.17.jar" />
                             <option value="$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.0.1/support-annotations-23.0.1.jar" />
                           </list>
                         </option>
@@ -1473,10 +1477,12 @@
       <list>
         <option value="$PROJECT_DIR$/app/src/main/java/fq/router2/utils/ShellUtils.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/fq/router2/life_cycle/Deployer.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/fq/router2/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/fq/router2/SocksVpnService.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/fq/router2/life_cycle/LaunchService.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/fq/router2/SocksVpnService.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/fq/router2/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -1518,6 +1524,30 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="AndroidView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fqrouter" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle Scripts" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fqrouter" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1526,105 +1556,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fqrouter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fqrouter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="AndroidView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fqrouter" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fqrouter" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fqrouter" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fqrouter" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ivmaidns" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fqrouter" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="router2" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fqrouter" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="manifests" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1636,7 +1572,10 @@
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="HIBE4P4SRCAUFUJJ" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Android_Wear_Round_API_20" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../AndroidRepeaterProject" />
-    <property name="SearchEverywhereHistoryKey" value="SocksVpn&#9;PSI&#9;JAVA://fq.router2.SocksVpnService&#10;Soc&#9;PSI&#9;JAVA://fq.router2.SocksVpnConnectedIntent&#10;Launch&#9;FILE&#9;file:///Users/malharkulkarni/AndroidStudioProjects/fqrouter/app/src/main/java/fq/router2/life_cycle/LaunchedIntent.java&#10;deployer&#9;FILE&#9;file:///Users/malharkulkarni/AndroidStudioProjects/fqrouter/app/src/main/java/fq/router2/life_cycle/Deployer.java&#10;onDownloading&#9;PSI&#9;JAVA://fq.router2.feedback.DownloadingIntent.Handler#onDownloading&#10;Deployer&#9;FILE&#9;file:///Users/malharkulkarni/AndroidStudioProjects/fqrouter/app/src/main/java/fq/router2/life_cycle/Deployer.java&#10;launchservice&#9;PSI&#9;JAVA://fq.router2.life_cycle.LaunchService&#10;import&#9;FILE&#9;file:///Users/malharkulkarni/AndroidStudioProjects/fqrouter/import-summary.txt" />
+    <property name="SearchEverywhereHistoryKey" value="Socks&#9;FILE&#9;file:///Users/malharkulkarni/AndroidStudioProjects/fqrouter/app/src/main/java/fq/router2/SocksVpnService.java&#10;Sooc&#9;null&#9;null&#10;webView&#9;PSI&#9;JAVA://fq.router2.MainActivity#loadWebView&#10;config&#9;PSI&#9;JAVA://fq.router2.BuildConfig&#10;Web&#9;PSI&#9;JAVA://fq.router2.MainActivity#loadWebView&#10;SocksVpn&#9;PSI&#9;JAVA://fq.router2.SocksVpnService&#10;Soc&#9;PSI&#9;JAVA://fq.router2.SocksVpnConnectedIntent&#10;Launch&#9;FILE&#9;file:///Users/malharkulkarni/AndroidStudioProjects/fqrouter/app/src/main/java/fq/router2/life_cycle/LaunchedIntent.java&#10;deployer&#9;FILE&#9;file:///Users/malharkulkarni/AndroidStudioProjects/fqrouter/app/src/main/java/fq/router2/life_cycle/Deployer.java&#10;onDownloading&#9;PSI&#9;JAVA://fq.router2.feedback.DownloadingIntent.Handler#onDownloading&#10;Deployer&#9;FILE&#9;file:///Users/malharkulkarni/AndroidStudioProjects/fqrouter/app/src/main/java/fq/router2/life_cycle/Deployer.java&#10;launchservice&#9;PSI&#9;JAVA://fq.router2.life_cycle.LaunchService&#10;import&#9;FILE&#9;file:///Users/malharkulkarni/AndroidStudioProjects/fqrouter/import-summary.txt" />
+    <property name="DEBUGGABLE_DEVICE" value="lenovo-ideatab_s6000_h-HIBE4P4SRCAUFUJJ" />
+    <property name="DEBUGGABLE_PROCESS" value="fq.router2" />
+    <property name="SHOW_ALL_PROCESSES" value="true" />
   </component>
   <component name="RunManager" selected="Android Application.app">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -1788,7 +1727,7 @@
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
       <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="true" />
       <option name="PREFERRED_AVD" value="" />
       <option name="USE_COMMAND_LINE" value="true" />
       <option name="COMMAND_LINE" value="" />
@@ -1850,21 +1789,21 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38980263" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38980263" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33717105" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959612" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39967105" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33717105" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1896,161 +1835,300 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/fq/router2/life_cycle/LaunchService.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/fq/router2/life_cycle/LaunchService.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/fq/router2/life_cycle/LaunchService.java</url>
+          <line>111</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/fq/router2/life_cycle/LaunchService.java</url>
+          <line>114</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/fq/router2/life_cycle/LaunchService.java</url>
+          <line>124</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/fq/router2/life_cycle/LaunchService.java</url>
+          <line>122</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/fq/router2/life_cycle/LaunchService.java</url>
+          <line>120</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/fq/router2/life_cycle/LaunchService.java</url>
+          <line>117</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/fq/router2/life_cycle/LaunchService.java</url>
+          <line>133</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/fq/router2/SocksVpnService.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/fq/router2/SocksVpnService.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/fq/router2/SocksVpnService.java</url>
+          <line>108</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/fq/router2/SocksVpnService.java</url>
+          <line>112</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/fq/router2/life_cycle/LaunchService.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/fq/router2/life_cycle/LaunchService.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/fq/router2/life_cycle/LaunchService.java</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/fq/router2/life_cycle/LaunchService.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/fq/router2/life_cycle/LaunchService.java</url>
+          <line>68</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/fq/router2/MainActivity.java</url>
+          <line>557</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/fq/router2/MainActivity.java</url>
+          <line>554</line>
+          <properties />
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/fq/router2/life_cycle/LaunchService.java</url>
+          <line>141</line>
+          <properties />
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/fq/router2/life_cycle/LaunchService.java</url>
+          <line>160</line>
+          <properties />
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/fq/router2/life_cycle/LaunchService.java</url>
+          <line>106</line>
+          <properties />
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/fq/router2/life_cycle/LaunchService.java</url>
+          <line>135</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/fq/router2/life_cycle/LaunchService.java</url>
+          <line>171</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/fq/router2/life_cycle/LaunchService.java</url>
+          <line>173</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/fq/router2/life_cycle/LaunchService.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/fq/router2/life_cycle/LaunchService.java</url>
+          <line>85</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/fq/router2/life_cycle/LaunchService.java</url>
+          <line>88</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/fq/router2/life_cycle/Deployer.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/fq/router2/life_cycle/Deployer.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/fq/router2/life_cycle/Deployer.java</url>
+          <line>37</line>
+          <properties />
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/fq/router2/life_cycle/Deployer.java</url>
+          <line>38</line>
+          <properties />
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/fq/router2/life_cycle/Deployer.java</url>
+          <line>183</line>
+          <properties />
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/fq/router2/life_cycle/Deployer.java</url>
+          <line>187</line>
+          <properties />
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/fq/router2/life_cycle/Deployer.java</url>
+          <line>324</line>
+          <properties />
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/fq/router2/life_cycle/Deployer.java</url>
+          <line>104</line>
+          <properties />
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/fq/router2/life_cycle/Deployer.java</url>
+          <line>158</line>
+          <properties />
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/fq/router2/life_cycle/Deployer.java</url>
+          <line>162</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/fq/router2/life_cycle/Deployer.java</url>
+          <line>167</line>
+          <properties />
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/fq/router2/MainActivity.java</url>
+          <line>405</line>
+          <properties />
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/fq/router2/MainActivity.java</url>
+          <line>406</line>
+          <properties />
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/fq/router2/MainActivity.java</url>
+          <line>409</line>
+          <properties />
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/fq/router2/MainActivity.java</url>
+          <line>411</line>
+          <properties />
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/fq/router2/MainActivity.java</url>
+          <line>414</line>
+          <properties />
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="58" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/fq/router2/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#6319#6345#0" expanded="true" />
-            <element signature="e#6630#6658#0" expanded="true" />
-            <element signature="e#7127#7149#0" expanded="true" />
-            <element signature="e#7214#7237#0" expanded="true" />
-            <element signature="e#7314#7349#0" expanded="true" />
-            <element signature="e#7465#7495#0" expanded="true" />
-            <element signature="e#7569#7595#0" expanded="true" />
-            <element signature="e#7652#7671#0" expanded="true" />
-            <element signature="e#7716#7734#0" expanded="true" />
-            <element signature="e#9264#9283#0" expanded="true" />
-            <element signature="e#9654#9679#0" expanded="true" />
-            <element signature="e#9790#9815#0" expanded="true" />
-            <element signature="e#10260#10282#0" expanded="true" />
-            <element signature="e#10575#10597#0" expanded="true" />
-            <element signature="e#10681#10703#0" expanded="true" />
-            <element signature="e#10784#10809#0" expanded="true" />
-            <element signature="e#11300#11325#0" expanded="true" />
-            <element signature="e#12123#12184#0" expanded="true" />
-            <element signature="e#12455#12507#0" expanded="true" />
-            <element signature="e#12741#12795#0" expanded="true" />
-            <element signature="e#14131#14153#0" expanded="true" />
-            <element signature="e#14283#14306#0" expanded="true" />
-            <element signature="e#14567#14605#0" expanded="true" />
-            <element signature="e#14976#14997#0" expanded="true" />
-            <element signature="e#15042#15063#0" expanded="true" />
-            <element signature="e#16138#16170#0" expanded="true" />
-            <element signature="e#16200#16234#0" expanded="true" />
-            <element signature="e#16271#16301#0" expanded="true" />
-            <element signature="e#16490#16517#0" expanded="true" />
-            <element signature="e#16777#16806#0" expanded="true" />
-            <element signature="e#17164#17195#0" expanded="true" />
-            <element signature="e#17272#17305#0" expanded="true" />
-            <element signature="e#17783#17809#0" expanded="true" />
-            <element signature="e#18266#18293#0" expanded="true" />
-            <element signature="e#18475#18501#0" expanded="true" />
-            <element signature="e#18888#18916#0" expanded="true" />
-            <element signature="e#19083#19111#0" expanded="true" />
-            <element signature="e#20119#20152#0" expanded="true" />
-            <element signature="e#20182#20217#0" expanded="true" />
-            <element signature="e#20254#20285#0" expanded="true" />
-            <element signature="e#20792#20834#0" expanded="true" />
-            <element signature="e#21024#21065#0" expanded="true" />
-            <element signature="e#21244#21275#0" expanded="true" />
-            <element signature="e#21902#21925#0" expanded="true" />
-            <element signature="e#22451#22474#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/fq/router2/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#6319#6345#0" expanded="true" />
-            <element signature="e#6630#6658#0" expanded="true" />
-            <element signature="e#7127#7149#0" expanded="true" />
-            <element signature="e#7214#7237#0" expanded="true" />
-            <element signature="e#7314#7349#0" expanded="true" />
-            <element signature="e#7465#7495#0" expanded="true" />
-            <element signature="e#7569#7595#0" expanded="true" />
-            <element signature="e#7652#7671#0" expanded="true" />
-            <element signature="e#7716#7734#0" expanded="true" />
-            <element signature="e#9264#9283#0" expanded="true" />
-            <element signature="e#9654#9679#0" expanded="true" />
-            <element signature="e#9790#9815#0" expanded="true" />
-            <element signature="e#10260#10282#0" expanded="true" />
-            <element signature="e#10575#10597#0" expanded="true" />
-            <element signature="e#10681#10703#0" expanded="true" />
-            <element signature="e#10784#10809#0" expanded="true" />
-            <element signature="e#11300#11325#0" expanded="true" />
-            <element signature="e#12123#12184#0" expanded="true" />
-            <element signature="e#12455#12507#0" expanded="true" />
-            <element signature="e#12741#12795#0" expanded="true" />
-            <element signature="e#14131#14153#0" expanded="true" />
-            <element signature="e#14283#14306#0" expanded="true" />
-            <element signature="e#14567#14605#0" expanded="true" />
-            <element signature="e#14976#14997#0" expanded="true" />
-            <element signature="e#15042#15063#0" expanded="true" />
-            <element signature="e#16138#16170#0" expanded="true" />
-            <element signature="e#16200#16234#0" expanded="true" />
-            <element signature="e#16271#16301#0" expanded="true" />
-            <element signature="e#16490#16517#0" expanded="true" />
-            <element signature="e#16777#16806#0" expanded="true" />
-            <element signature="e#17164#17195#0" expanded="true" />
-            <element signature="e#17272#17305#0" expanded="true" />
-            <element signature="e#17783#17809#0" expanded="true" />
-            <element signature="e#18266#18293#0" expanded="true" />
-            <element signature="e#18475#18501#0" expanded="true" />
-            <element signature="e#18888#18916#0" expanded="true" />
-            <element signature="e#19083#19111#0" expanded="true" />
-            <element signature="e#20119#20152#0" expanded="true" />
-            <element signature="e#20182#20217#0" expanded="true" />
-            <element signature="e#20254#20285#0" expanded="true" />
-            <element signature="e#20792#20834#0" expanded="true" />
-            <element signature="e#21024#21065#0" expanded="true" />
-            <element signature="e#21244#21275#0" expanded="true" />
-            <element signature="e#21902#21925#0" expanded="true" />
-            <element signature="e#22451#22474#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/content/Context.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3318584">
-          <caret line="315" column="33" selection-start-line="315" selection-start-column="33" selection-end-line="315" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/content/res/AssetManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3318584">
-          <caret line="285" column="29" selection-start-line="285" selection-start-column="29" selection-end-line="285" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/import-summary.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.59468436">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/fq/router2/utils/HttpUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="83" column="50" selection-start-line="83" selection-start-column="50" selection-end-line="83" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/assets/busybox">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-21.632076">
           <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2073,49 +2151,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/fq/router2/life_cycle/Deployer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4272152">
-          <caret line="21" column="76" selection-start-line="21" selection-start-column="76" selection-end-line="21" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/fq/router2/utils/ConfigUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="15" column="31" selection-start-line="15" selection-start-column="31" selection-end-line="16" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/fq/router2/utils/IOUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/preferences.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#197#219#0" expanded="false" />
-            <element signature="e#248#278#0" expanded="false" />
-            <element signature="e#377#420#0" expanded="false" />
-            <element signature="e#557#591#0" expanded="false" />
-            <element signature="e#620#662#0" expanded="false" />
-            <element signature="e#799#841#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/fq/router2/utils/LoggedBroadcastReceiver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
           <folding />
         </state>
       </provider>
@@ -2128,22 +2167,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.6896553">
-          <caret line="26" column="24" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/java/lang/RuntimeException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29333332">
           <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2211,15 +2238,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="63" column="19" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/content/Intent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29333332">
-          <caret line="651" column="31" selection-start-line="651" selection-start-column="31" selection-end-line="651" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2227,7 +2245,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="207" column="25" selection-start-line="207" selection-start-column="25" selection-end-line="207" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2235,7 +2252,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.53333336">
           <caret line="294" column="41" selection-start-line="294" selection-start-column="33" selection-end-line="294" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2253,10 +2269,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="554" column="22" selection-start-line="554" selection-start-column="22" selection-end-line="554" selection-end-column="22" />
-          <folding>
-            <element signature="e#27094#27095#0" expanded="false" />
-            <element signature="e#27122#27123#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2275,25 +2287,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
           <caret line="410" column="18" selection-start-line="410" selection-start-column="18" selection-end-line="410" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/fq/router2/life_cycle/LaunchedIntent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.4">
-          <caret line="233" column="18" selection-start-line="233" selection-start-column="18" selection-end-line="233" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2301,84 +2294,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="235" column="9" selection-start-line="235" selection-start-column="9" selection-end-line="235" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/fq/router2/SocksVpnService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.7777777">
-          <caret line="22" column="47" selection-start-line="22" selection-start-column="47" selection-end-line="22" selection-end-column="47" />
-          <folding>
-            <element signature="e#702#710#0" expanded="true" />
-            <element signature="e#763#772#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/content/ContextWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45333335">
-          <caret line="579" column="25" selection-start-line="579" selection-start-column="25" selection-end-line="579" selection-end-column="25" />
-          <folding>
-            <element signature="e#16695#16696#0" expanded="false" />
-            <element signature="e#16745#16746#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/fq/router2/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="33.88889">
-          <caret line="497" column="47" selection-start-line="497" selection-start-column="29" selection-end-line="497" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#6319#6345#0" expanded="true" />
-            <element signature="e#6630#6658#0" expanded="true" />
-            <element signature="e#7127#7149#0" expanded="true" />
-            <element signature="e#7214#7237#0" expanded="true" />
-            <element signature="e#7314#7349#0" expanded="true" />
-            <element signature="e#7465#7495#0" expanded="true" />
-            <element signature="e#7569#7595#0" expanded="true" />
-            <element signature="e#7652#7671#0" expanded="true" />
-            <element signature="e#7716#7734#0" expanded="true" />
-            <element signature="e#9264#9283#0" expanded="true" />
-            <element signature="e#9654#9679#0" expanded="true" />
-            <element signature="e#9790#9815#0" expanded="true" />
-            <element signature="e#10260#10282#0" expanded="true" />
-            <element signature="e#10575#10597#0" expanded="true" />
-            <element signature="e#10681#10703#0" expanded="true" />
-            <element signature="e#10784#10809#0" expanded="true" />
-            <element signature="e#11300#11325#0" expanded="true" />
-            <element signature="e#12123#12184#0" expanded="true" />
-            <element signature="e#12455#12507#0" expanded="true" />
-            <element signature="e#12741#12795#0" expanded="true" />
-            <element signature="e#14131#14153#0" expanded="true" />
-            <element signature="e#14283#14306#0" expanded="true" />
-            <element signature="e#14567#14605#0" expanded="true" />
-            <element signature="e#14976#14997#0" expanded="true" />
-            <element signature="e#15042#15063#0" expanded="true" />
-            <element signature="e#16138#16170#0" expanded="true" />
-            <element signature="e#16200#16234#0" expanded="true" />
-            <element signature="e#16271#16301#0" expanded="true" />
-            <element signature="e#16490#16517#0" expanded="true" />
-            <element signature="e#16777#16806#0" expanded="true" />
-            <element signature="e#17164#17195#0" expanded="true" />
-            <element signature="e#17272#17305#0" expanded="true" />
-            <element signature="e#17783#17809#0" expanded="true" />
-            <element signature="e#18266#18293#0" expanded="true" />
-            <element signature="e#18475#18501#0" expanded="true" />
-            <element signature="e#18888#18916#0" expanded="true" />
-            <element signature="e#19083#19111#0" expanded="true" />
-            <element signature="e#20119#20152#0" expanded="true" />
-            <element signature="e#20182#20217#0" expanded="true" />
-            <element signature="e#20254#20285#0" expanded="true" />
-            <element signature="e#20792#20834#0" expanded="true" />
-            <element signature="e#21024#21065#0" expanded="true" />
-            <element signature="e#21244#21275#0" expanded="true" />
-            <element signature="e#21902#21925#0" expanded="true" />
-            <element signature="e#22451#22474#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2386,10 +2301,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.111111">
           <caret line="147" column="75" selection-start-line="147" selection-start-column="75" selection-end-line="147" selection-end-column="75" />
-          <folding>
-            <element signature="e#17130#17131#0" expanded="true" />
-            <element signature="e#17205#17206#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2398,8 +2309,8 @@
         <state vertical-scroll-proportion="-6.111111">
           <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1197#1205#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#1197#1205#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2408,33 +2319,305 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.113702625">
           <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/fq/router2/life_cycle/LaunchService.java">
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/os/Message.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.8888888">
-          <caret line="157" column="13" selection-start-line="157" selection-start-column="13" selection-end-line="157" selection-end-column="13" />
-          <folding>
-            <element signature="e#1477#1503#0" expanded="true" />
-            <element signature="e#1647#1685#0" expanded="true" />
-            <element signature="e#2198#2225#0" expanded="true" />
-            <element signature="e#2455#2492#0" expanded="true" />
-            <element signature="e#2888#2932#0" expanded="true" />
-            <element signature="e#3039#3081#0" expanded="true" />
-            <element signature="e#3171#3214#0" expanded="true" />
-            <element signature="e#3427#3463#0" expanded="true" />
-            <element signature="e#5135#5167#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0">
+          <caret line="251" column="0" selection-start-line="251" selection-start-column="0" selection-end-line="251" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/pages/about-cn.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.137381">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/assets/pages/about-en.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.15015975">
+          <caret line="272" column="78" selection-start-line="272" selection-start-column="78" selection-end-line="272" selection-end-column="78" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/fq/router2/life_cycle/ManagerProcess.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7151899">
-          <caret line="57" column="55" selection-start-line="57" selection-start-column="55" selection-end-line="57" selection-end-column="55" />
+        <state vertical-scroll-proportion="2.2222223">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/preferences.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/content/Intent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-333.40652">
+          <caret line="651" column="31" selection-start-line="651" selection-start-column="31" selection-end-line="651" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/fq/router2/utils/ConfigUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/fq/router2/BuildConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12857144">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35714287">
+          <caret line="205" column="18" selection-start-line="205" selection-start-column="18" selection-end-line="205" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/app/ActivityThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3323442">
+          <caret line="1340" column="0" selection-start-line="1340" selection-start-column="0" selection-end-line="1340" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/app/Instrumentation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3323442">
+          <caret line="1092" column="0" selection-start-line="1092" selection-start-column="0" selection-end-line="1092" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/app/FragmentManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3323442">
+          <caret line="1830" column="0" selection-start-line="1830" selection-start-column="0" selection-end-line="1830" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/content/ContextWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3323442">
+          <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/app/ContextImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3323442">
+          <caret line="647" column="0" selection-start-line="647" selection-start-column="0" selection-end-line="647" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/app/Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5122" column="0" selection-start-line="5122" selection-start-column="0" selection-end-line="5122" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/os/Looper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="142" column="0" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/os/HandlerThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3323442">
+          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/app/IntentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/app/LoadedApk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3323442">
+          <caret line="806" column="0" selection-start-line="806" selection-start-column="0" selection-end-line="806" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/fq/router2/utils/LoggedBroadcastReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5341246">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.37931">
+          <caret line="65" column="43" selection-start-line="65" selection-start-column="43" selection-end-line="65" selection-end-column="43" />
+          <folding>
+            <element signature="e#1430#1455#0" expanded="true" />
+            <element signature="e#1778#1805#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/fq/router2/life_cycle/LaunchedIntent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="e#528#750#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/fq/router2/life_cycle/LaunchService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="141" column="14" selection-start-line="141" selection-start-column="14" selection-end-line="141" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/fq/router2/life_cycle/Deployer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="240" column="9" selection-start-line="240" selection-start-column="9" selection-end-line="240" selection-end-column="9" />
+          <folding>
+            <element signature="e#3573#3574#0" expanded="true" />
+            <element signature="e#3632#3633#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/fq/router2/SocksVpnService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+          <folding>
+            <element signature="e#1202#1203#0" expanded="true" />
+            <element signature="e#1227#1228#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-23/android/os/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33236152">
+          <caret line="395" column="25" selection-start-line="395" selection-start-column="25" selection-end-line="395" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/fq/router2/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.56962025">
+          <caret line="414" column="22" selection-start-line="414" selection-start-column="22" selection-end-line="414" selection-end-column="22" />
+          <folding>
+            <element signature="e#3886#4302#0" expanded="true" />
+            <element signature="e#4301#4302#0" expanded="true" />
+            <element signature="e#4412#4560#0" expanded="true" />
+            <element signature="e#4559#4560#0" expanded="true" />
+            <element signature="e#4667#4814#0" expanded="true" />
+            <element signature="e#4813#4814#0" expanded="true" />
+            <element signature="e#5172#5173#0" expanded="true" />
+            <element signature="e#5203#5204#0" expanded="true" />
+            <element signature="e#7171#7197#0" expanded="true" />
+            <element signature="e#7482#7510#0" expanded="true" />
+            <element signature="e#7979#8001#0" expanded="true" />
+            <element signature="e#8066#8089#0" expanded="true" />
+            <element signature="e#8166#8201#0" expanded="true" />
+            <element signature="e#8317#8347#0" expanded="true" />
+            <element signature="e#8421#8447#0" expanded="true" />
+            <element signature="e#8504#8523#0" expanded="true" />
+            <element signature="e#8568#8586#0" expanded="true" />
+            <element signature="e#10116#10135#0" expanded="true" />
+            <element signature="e#10506#10531#0" expanded="true" />
+            <element signature="e#10642#10667#0" expanded="true" />
+            <element signature="e#11112#11134#0" expanded="true" />
+            <element signature="e#11427#11449#0" expanded="true" />
+            <element signature="e#11533#11555#0" expanded="true" />
+            <element signature="e#11636#11661#0" expanded="true" />
+            <element signature="e#12152#12177#0" expanded="true" />
+            <element signature="e#12975#13036#0" expanded="true" />
+            <element signature="e#13307#13359#0" expanded="true" />
+            <element signature="e#13593#13647#0" expanded="true" />
+            <element signature="e#14983#15005#0" expanded="true" />
+            <element signature="e#15135#15158#0" expanded="true" />
+            <element signature="e#15198#15199#0" expanded="true" />
+            <element signature="e#15249#15250#0" expanded="true" />
+            <element signature="e#15419#15457#0" expanded="true" />
+            <element signature="e#15828#15849#0" expanded="true" />
+            <element signature="e#15894#15915#0" expanded="true" />
+            <element signature="e#16426#16701#0" expanded="true" />
+            <element signature="e#16700#16701#0" expanded="true" />
+            <element signature="e#16703#16965#0" expanded="true" />
+            <element signature="e#16964#16965#0" expanded="true" />
+            <element signature="e#18698#18730#0" expanded="true" />
+            <element signature="e#18760#18794#0" expanded="true" />
+            <element signature="e#18831#18861#0" expanded="true" />
+            <element signature="e#19050#19077#0" expanded="true" />
+            <element signature="e#19337#19366#0" expanded="true" />
+            <element signature="e#19725#19756#0" expanded="true" />
+            <element signature="e#19833#19866#0" expanded="true" />
+            <element signature="e#20345#20371#0" expanded="true" />
+            <element signature="e#20828#20855#0" expanded="true" />
+            <element signature="e#21037#21063#0" expanded="true" />
+            <element signature="e#21450#21478#0" expanded="true" />
+            <element signature="e#21645#21673#0" expanded="true" />
+            <element signature="e#22681#22714#0" expanded="true" />
+            <element signature="e#22744#22779#0" expanded="true" />
+            <element signature="e#22816#22847#0" expanded="true" />
+            <element signature="e#23354#23396#0" expanded="true" />
+            <element signature="e#23586#23627#0" expanded="true" />
+            <element signature="e#23806#23837#0" expanded="true" />
+            <element signature="e#24464#24487#0" expanded="true" />
+            <element signature="e#25013#25036#0" expanded="true" />
+            <element signature="e#26164#26192#0" expanded="true" />
+            <element signature="e#26283#26454#0" expanded="true" />
+            <element signature="e#26453#26454#0" expanded="true" />
+            <element signature="e#26973#27004#0" expanded="true" />
+            <element signature="e#27038#27071#0" expanded="true" />
+            <element signature="e#27112#27142#0" expanded="true" />
+            <element signature="e#27485#27525#0" expanded="true" />
+            <element signature="e#28075#28110#0" expanded="true" />
+            <element signature="e#28460#28491#0" expanded="true" />
+            <element signature="e#28525#28558#0" expanded="true" />
+            <element signature="e#28599#28629#0" expanded="true" />
+            <element signature="e#28926#28954#0" expanded="true" />
+            <element signature="e#29622#30199#0" expanded="true" />
+            <element signature="e#30120#30155#0" expanded="true" />
+            <element signature="e#30198#30199#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

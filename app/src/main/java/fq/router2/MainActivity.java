@@ -24,6 +24,14 @@ import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
+
 import fq.router2.feedback.*;
 import fq.router2.life_cycle.*;
 import fq.router2.utils.*;
@@ -58,7 +66,7 @@ public class MainActivity extends Activity implements
         //app exiting
         //clearing code
         ExitedIntent.Handler,
-        ExitingIntent.Handler{
+        ExitingIntent.Handler {
 
     public final static int SHOW_AS_ACTION_IF_ROOM = 1;
     private final static int ITEM_ID_EXIT = 1;
@@ -75,18 +83,23 @@ public class MainActivity extends Activity implements
     private boolean downloaded;
     private static boolean dnsPollutionAcked = false;
 
+
     static {
         IOUtils.createCommonDirs();
     }
 
     private GestureDetectorCompat gestureDetector;
     private String shareUrl;
+    private RequestQueue requestQueue;
+
 
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+        requestQueue = Volley.newRequestQueue(this);
+
         PreferenceManager.setDefaultValues(this, R.xml.preferences, true);
         setTitle("fqrouter " + LaunchService.getMyVersion(this));
         LaunchedIntent.register(this);
@@ -115,6 +128,23 @@ public class MainActivity extends Activity implements
                 }
             }
         });
+
+        Button start_wifi = (Button) findViewById(R.id.start_wifi);
+        start_wifi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startWifi();
+            }
+        });
+
+        Button stop_wifi = (Button) findViewById(R.id.stop_wifi);
+        stop_wifi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                stopWifi();
+            }
+        });
+
         if (isReady) {
             onReady();
             showWebView();
@@ -398,12 +428,55 @@ public class MainActivity extends Activity implements
         //checkUpdate();
     }
 
+
+    public void startWifi()
+    {
+        String url = "http://192.168.11.187:"+ConfigUtils.getHttpManagerPort()
+        +"/wifi-repeater/enable";
+        StringRequest stringRequest = new StringRequest(Request.Method.POST, url,
+                new Response.Listener<String>() {
+                    @Override
+                    public void onResponse(String response) {
+                        Toast.makeText(getApplicationContext(),"Staring Repeater",Toast.LENGTH_SHORT).show();
+                    }
+                }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                Toast.makeText(getApplicationContext(),"Request Failed",Toast.LENGTH_SHORT)
+                        .show();
+            }
+        });
+        requestQueue.add(stringRequest);
+    }
+
+    public void stopWifi()
+    {
+        String url = "http://192.168.11.187:"+ConfigUtils.getHttpManagerPort()+"/wifi-repeater/disable";
+        StringRequest stringRequest = new StringRequest(Request.Method.POST, url,
+                new Response.Listener<String>() {
+                    @Override
+                    public void onResponse(String response) {
+                        Toast.makeText(getApplicationContext(),"Stopping Repeater",Toast
+                                .LENGTH_SHORT).show();
+                    }
+                }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+                Toast.makeText(getApplicationContext(),"Request Failed",Toast.LENGTH_SHORT)
+                        .show();
+
+            }
+        });
+        requestQueue.add(stringRequest);
+    }
+
+
     private void checkUpdate() {
-        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
-        boolean AutoUpdateEnabled = preferences.getBoolean("AutoUpdateEnabled", true);
-        if (AutoUpdateEnabled && upgradeUrl == null) {
-            CheckUpdateService.execute(this);
-        }
+//        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
+//        boolean AutoUpdateEnabled = preferences.getBoolean("AutoUpdateEnabled", true);
+//        if (AutoUpdateEnabled && upgradeUrl == null) {
+//            CheckUpdateService.execute(this);
+//        }
     }
 
     @Override
@@ -441,7 +514,7 @@ public class MainActivity extends Activity implements
 
     @Override
     public void onDownloadFailed(final String url, String downloadTo) {
-        Log.d("Main Activity","Download failed");
+        Log.d("Main Activity", "Download failed");
         ActivityCompat.invalidateOptionsMenu(this);
         onHandleFatalError(_(R.string.status_download_failed) + " " + Uri.parse(url).getLastPathSegment());
         Toast.makeText(this, R.string.upgrade_via_browser_hint, Toast.LENGTH_SHORT).show();
@@ -455,7 +528,7 @@ public class MainActivity extends Activity implements
 
     @Override
     public void onDownloaded(String url, String downloadTo) {
-        Log.d("Main Activity","Onownloaded called");
+        Log.d("Main Activity", "Onownloaded called");
         downloaded = true;
         ActivityCompat.invalidateOptionsMenu(this);
         updateStatus(_(R.string.status_downloaded) + " " + Uri.parse(url).getLastPathSegment(), 5);
